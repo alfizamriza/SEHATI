@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/menu_home_guru"/>
+
+    <item
+        android:title="Absensi"
+        android:icon="@drawable/absent"
+        android:id="@+id/menu_absensi"/>
+
+    <item
+        android:title="Laporan"
+        android:icon="@drawable/report"
+        android:id="@+id/menu_laporan"/>
+</menu>

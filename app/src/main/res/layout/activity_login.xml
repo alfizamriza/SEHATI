@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradasi"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="385dp"
+        android:scaleType="fitXY"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        app:srcCompat="@drawable/no_plastic_bag_1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/montserat_extrabold"
+            android:text="Selamat Datang"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_background"
+            android:hint="NIS"
+            android:padding="12dp"
+            android:fontFamily="@font/montserat_bold" />
+
+        <EditText
+            android:id="@+id/editSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Sandi"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:fontFamily="@font/montserat_bold" />
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_masuk"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/montserat_bold"
+            android:text="Masuk"
+            android:textColor="@color/white" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDaftarguru"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@drawable/btn_masuk"-->
+<!--            android:backgroundTint="@color/green"-->
+<!--            android:fontFamily="@font/montserat_bold"-->
+<!--            android:text="Daftar Guru"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDaftarkantin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@drawable/btn_masuk"-->
+<!--            android:backgroundTint="@color/green"-->
+<!--            android:fontFamily="@font/montserat_bold"-->
+<!--            android:text="Daftar Kantin"-->
+<!--            android:textColor="@color/white" />-->
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E4F1E8"
+    tools:context=".PelaporanFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pelaporan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserat_extrabold"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Melaporkan jika siswa membawa plastik atau membeli minuman botol"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserat_bold"/>
+
+    <Spinner
+        android:id="@+id/spinner_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/box_white"
+        android:minHeight="48dp"
+        android:paddingVertical="10dp"
+        android:prompt="@string/prompt_class" />
+
+    <Spinner
+        android:id="@+id/spinner_kelas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/box_white"
+        android:minHeight="48dp"
+        android:paddingVertical="10dp"
+        android:prompt="@string/prompt_student" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Pelanggaran"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserat_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/violation_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_kantong_plastik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menggunakan Kantong Plastik"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserat_bold"/>
+
+        <RadioButton
+            android:id="@+id/radio_minuman_botol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membeli Minuman Botol"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserat_bold"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="Kirim"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Pelaporan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserat_extrabold"/>
+
+    <LinearLayout
+        android:id="@+id/history_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/box_white"
+        android:padding="8dp"
+        android:elevation="4dp"/>
+</LinearLayout>

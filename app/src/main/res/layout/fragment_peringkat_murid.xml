@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:backgroundTint="#E5F3E5">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peringkat"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserat_extrabold"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jadilah pemenang untuk mendapatkan kupon"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserat_bold"/>
+
+    <TextView
+        android:id="@+id/tv_no_rankings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum ada peringkat minggu ini"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserat_bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_rankings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

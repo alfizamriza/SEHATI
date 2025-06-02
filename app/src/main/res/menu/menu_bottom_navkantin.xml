@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/menu_home_kantin"/>
+
+    <item
+        android:title="Penukaran Koin"
+        android:icon="@drawable/ic_coin"
+        android:id="@+id/menu_penukaran_koin"/>
+
+    <item
+        android:title="Penukaran Kupon"
+        android:icon="@drawable/coupon"
+        android:id="@+id/menu_penukaran_kupon"/>
+</menu>

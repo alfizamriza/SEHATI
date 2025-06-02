@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    tools:context=".HomeKantinFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/top">
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <TextView
+                android:id="@+id/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, Kantin"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/montserat_extrabold"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/subheaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_below="@id/headerText"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/keluar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="center"
+            android:layout_weight="1"
+            android:backgroundTint="#E0F2F1"
+            android:src="@drawable/ic_log_out"
+            app:tint="@color/green" />
+    </LinearLayout>
+
+
+    <!-- Total Koin -->
+
+
+    <TextView
+        android:id="@+id/totalCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Penukaran Koin"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:id="@+id/coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/totalCoins"
+        android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.000.000"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:layout_below="@id/totalCoins"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+
+    <Button
+        android:id="@+id/exchangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@id/totalAmount"
+        android:layout_marginStart="100dp"
+
+        android:background="@drawable/btn_masuk"
+        android:backgroundTint="@color/orange"
+        android:text="Tukar"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Riwayat Penukaran -->
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Penukaran"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/coin"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp" />
+
+
+    <!-- Riwayat Item -->
+    <LinearLayout
+        android:id="@+id/historyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/historyText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box_white"
+        android:layout_margin="20dp"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yudha"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10/02/2025"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:text="5000"
+            android:textColor="@color/orange"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

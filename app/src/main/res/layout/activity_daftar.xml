@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/daftar"
+    android:padding="30dp"
+    android:background="#E3F1EA">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="24dp"
+        android:text="Tambah Siswa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Nama"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNIS"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        android:padding="10dp"
+        android:background="@drawable/box_white"
+        android:layout_marginHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextNIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:hint="NIS"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        tools:layout_editor_absoluteX="16dp"
+        android:padding="10dp"
+        android:background="@drawable/box_white"
+        android:layout_marginHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:hint="Sandi"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdd"
+        tools:layout_editor_absoluteX="16dp"
+        android:padding="10dp"
+        android:background="@drawable/box_white"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/btn_masuk"/>
+
+    <ImageButton
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintEnd_toStartOf="@+id/title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

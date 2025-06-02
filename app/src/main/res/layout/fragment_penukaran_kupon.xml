@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7F6F2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penukaran Kupon"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/montserat_bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/user_id_svgrepo_com"
+        app:tint="@color/green"/>
+
+    <TextView
+        android:id="@+id/tvRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Siswa"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextNIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Masukkan NIS Siswa"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/montserat_bold"/>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_masuk"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Cari Siswa"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Nama: -"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvKuponCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Kupon: 0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editKuponAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Masukkan Jumlah Kupon"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/montserat_bold"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/buttonExchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_masuk"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/montserat_bold"
+        android:text="Tukar Kupon"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"/>
+
+</LinearLayout>

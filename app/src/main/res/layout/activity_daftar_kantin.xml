@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingHorizontal="20dp"
+    android:background="#E3F1EA"
+    android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserat_extrabold"
+        android:text="Daftar Kantin"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Kantin"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@drawable/box_white"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserat_light"/>
+
+    <EditText
+        android:id="@+id/editNIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIS/Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/box_white"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserat_light"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/box_white"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserat_light"/>
+
+    <EditText
+        android:id="@+id/editConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Konfirmasi Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/box_white"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserat_light"/>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:backgroundTint="@color/orange"
+        android:background="@drawable/btn_masuk"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:fontFamily="@font/montserat_bold"/>
+
+</LinearLayout>

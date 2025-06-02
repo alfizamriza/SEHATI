@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/menu_home_siswa"/>
+
+    <item
+        android:title="Peringkat"
+        android:icon="@drawable/ranking"
+        android:id="@+id/menu_peringkat_siswa"/>
+
+    <item
+        android:title="Kupon"
+        android:icon="@drawable/coupon"
+        android:id="@+id/menu_Kupon"/>
+</menu>

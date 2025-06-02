@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/bg_gradasi"
+    android:padding="16dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tv_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas Asing"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserat_extrabold"/>
+
+    <TextView
+        android:id="@+id/tv_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_class_name"
+        android:layout_marginTop="8dp"
+        android:text="No 1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserat_bold"/>
+
+    <TextView
+        android:id="@+id/tv_koin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserat_bold"/>
+</RelativeLayout>

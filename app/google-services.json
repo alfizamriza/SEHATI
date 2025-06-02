@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66507733592",
+    "project_id": "sehati-lingkungan",
+    "storage_bucket": "sehati-lingkungan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66507733592:android:cfa487c35bf9dccca8a82d",
+        "android_client_info": {
+          "package_name": "com.example.sehati"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtyV5pf7zl-xZCErd-c2BQwgjfTNBu9bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
