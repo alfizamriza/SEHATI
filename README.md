@@ -1,6 +1,6 @@
 # SEHATI - Sekolah Hijau dan Anti Plastik
 
-SEHATI adalah sebuah aplikasi Android yang dirancang untuk mendorong lingkungan sekolah yang berkelanjutan dan sehat dengan membiasakan kebiasaan ramah lingkungan di kalangan siswa, serta memfasilitasi tugas-tugas administratif untuk guru dan staf kantin. Aplikasi ini mengintegrasikan sistem penghargaan koin dan kupon, pelacakan kehadiran, pelaporan pelanggaran, serta fungsionalitas penukaran koin/kupon.
+SEHATI adalah sebuah aplikasi Android yang dirancang untuk mendorong lingkungan sekolah yang berkelanjutan dan sehat dengan membiasakan kebiasaan ramah lingkungan di kalangan siswa. Aplikasi ini mengintegrasikan sistem penghargaan koin dan kupon, pelacakan kehadiran, pelaporan pelanggaran, serta fungsionalitas penukaran koin/kupon.
 
 ### Fitur
 
