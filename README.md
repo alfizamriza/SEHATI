@@ -33,17 +33,14 @@ SEHATI adalah sebuah aplikasi Android yang dirancang untuk mendorong lingkungan 
 * **Pengembangan Android**: Aplikasi ini dibuat secara native untuk Android.
 * **Bahasa Pemrograman**:
     * Java
-    * Kotlin
-* **Sistem Build**: Gradle (Kotlin DSL)
 * **Firebase**:
     * Firebase Realtime Database: Untuk menyimpan dan mengelola data pengguna, absensi, transaksi, dan peringkat.
-* **UI/UX**: Layout XML Android, komponen Material Design.
 
 ### Pengaturan dan Instalasi
 
 Untuk menyiapkan proyek SEHATI secara lokal, ikuti langkah-langkah berikut:
 
-1.  **Klon Repositori**:
+1.  **Clon Repositori**:
     ```bash
     git clone https://github.com/alfizamriza/sehati.git
     cd sehati
